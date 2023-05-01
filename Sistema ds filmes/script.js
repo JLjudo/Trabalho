@@ -25,8 +25,10 @@ function imprimir(){
             Papel2: pel2,
             Pessoa3: pess3, 
             Papel3: pel3
+        },
+        mostrar: function(){
+            console.log(filme)
+            document.getElementById("inform").innerHTML = filme
         }
     } 
-    console.log(filme)
-    document.getElementById("inform").innerHTML = filme
 }
